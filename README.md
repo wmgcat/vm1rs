@@ -12,6 +12,8 @@ A stack-based virtual machine that runs instruction sequences and compiles them 
 ./vm1rs test tests/mandelbrot.txt
 ```
 
+![Mandelbrot](/public/mandelbrot.png)
+
 ## Commands
 | Command  | Description |
 |---|---|
@@ -68,5 +70,8 @@ A stack-based virtual machine that runs instruction sequences and compiles them 
 | LOADI | 23 | - | Indirect load: the cell address is taken from the stack |
 | STOREI | 24 | - | Indirect store: mem[addr] = v, the address is on top |
 | KEY | 25 | - | Read a line from stdin and push the code of its first character (space if empty) |
+
+![Sierpinski](/public/sierpinski.png)
+
 ## Links
 - [Examples](/tests)
