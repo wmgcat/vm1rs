@@ -3,7 +3,7 @@ pub fn error_unknown_command() -> &'static str {
 }
 
 pub fn error_file() -> &'static str {
-    "[ERR01] Read file"
+    "[ERR01] Read a file"
 }
 
 pub fn error_create_file() -> &'static str {
