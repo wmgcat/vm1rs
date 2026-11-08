@@ -7,6 +7,11 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/wmgcat/vm1rs)
 
 A stack-based virtual machine that runs instruction sequences and compiles them into .prog binaries
+
+```sh 
+./vm1rs test tests/mandelbrot.txt
+```
+
 ## Commands
 | Command  | Description |
 |---|---|
@@ -32,7 +37,7 @@ A stack-based virtual machine that runs instruction sequences and compiles them 
 | ERR11 | Unknown |
 ## .prog files signature
 ```
-0xFF, 0x10, 0xFA, 0xF8
+0xFF 0x10 0xFA 0xF8
 ```
 ## Stack commands
 | Command | Code | Argument | Description |
